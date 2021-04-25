@@ -1,6 +1,13 @@
+body {
+  background-color: slategray;
+}
+
 .container {
-  background-color: white;
+  background-color: floralwhite;
 }
 
 header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
