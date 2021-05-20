@@ -5,13 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tony Blankenship</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>Hello World!!</h1>
-      </header>
-    </div>
+   <div class="container">
+    <header>
+      <h1>Tony Blankenship</h1>
+      <nav>
+        <a href="#aboutMe">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactMe">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="profile">
+        <article id="aboutMe" class="about_me">
+          <h2>About Me</h2>
+          <p>My name is Tony Blankenship I currently attend WCCI (We Can Code It), a coding bootcamp where
+            I study Java, Html, CSS, JavaScript and a few other accompanying languages. I attend the course
+          remotely where we use mostly zoom and slack to communicate with eachother. My past job 
+        experiences have all been warehouse distribution centers, it doesnt exactly give me any experiences
+      towards a software job but it has gave me experience working in a team and problem solving. I have
+      been interested in tech for as long as I remember, Ive always been one to take things apart to see
+      how they work and try and put them back together. In my off time you can usually find me with a 
+      fishing pole in my hand, or behind a mouse and keyboard gaming. </p>
+        </article>
+         <figure>
+          <img src="images\headshot (2).jpg" alt="Picture Of Tony" class="profile_headshot">
+         </figure>
+      </section>
+      <h2 class="projects_title">Current Projects</h2>
+     <section id="projects" class="projects">
+      <article class="project__Virtual_Pet">
+        <h2> Virtual Pet</h2>
+        <figure class="projects_figure">
+          <img src="images\VirtualPet.png" alt="Virtual pet project" class="projects_image"> <br>
+          <a href="https://github.com/2021-Spring-Part-Time/virtual-pet-tonyblankenship96">GitHub link</a>
+        </figure>
+        <h3>Requirements</h3>
+        <p>For this project we had to develop a single virtual pet that we would have to be able to take care of.
+          We needed to create methods to effect variables like hunger, thirst, boredom etc. The console would 
+          ask for input from the user then update the stats after every turn. The project had to run in 
+          a loop with a tick method inceasing the variables slightly each turn.</p>
+      </article>
+      <article class="project__Virtual_Pet_Shelter">
+        <h2> Virtual Pet Shelter</h2>
+        <figure class="projects_figure">
+          <img src="images\VirtualPetShelter.png" alt="Virtual pet shelter project" class="projects_image"> <br>
+          <a href="https://github.com/2021-Spring-Part-Time/virtual-pet-shelter-tonyblankenship96">GitHub link</a>
+        </figure>
+        <h3>Requirements</h3>
+        <p>This project was very similar to virtual pet but we had to expand to take care of several pets. A 
+          big goal for this project was to get more comfortable with test driven development, so I tried to
+        build all of my methods, classes, variables, etc. through tests. With the project now being a Shelter
+      instead of an individual pet I had to create a method to add and remove pets. Each individual pet also
+    needed to be walked alone, so I had to figure out a way to only affect a single virtual pets stats. </p>
+      </article>
+      <article class="project__Virtual_Pets_AMOK">
+        <h2>Virtual Pets AMOK</h2>
+        <figure class="projects_figure">
+          <img src="images\VirtualPetAmok.png" alt="Virtual pet AMOK project" class="projects_image"> <br>
+          <a href="https://github.com/2021-Spring-Part-Time/virtual-pets-amok-tonyblankenship96">GitHub link</a>
+        </figure>
+        <h3>Requirements</h3>
+        <p>In this variation of the virtual pet shelter I have dogs, cats, robot dogs and robot cats who
+          all have their own needs that have to be taken care of. This project shares mostly the same
+        requirements as the shelter but here I have to use object oriented programming to group together
+      methods and variables that some of the pets do share. An example of this is that only the 
+    regular cats and dogs needed to eat and drink while the robot cats and dogs needed to be oiled and 
+    maintenanced. </p>
+      </article>
+     </section>
+    </main>
+    <section id="contactMe" class="contact_me">
+      <p>Contact Me <br> <a href="#" class="fa fa-envelope"></a> Email: <a href="mailto:tony.blankenship96@gmail.com">Tony.blankenship96@gmail.com</a> <br> <a href="#" class="fa fa-linkedin"></a><a href="https://www.linkedin.com/in/tony-blankenship-313024211/"> Linkedin</a>
+        <br> <a href="#" class="fa fa-github"></a> GitHub:  </p>
+    </section>
+    <footer>
+      <small>&copy Tony Blankenship EST. 2021</small>
+    </footer>
+   </div>
   </body>
 </html>
