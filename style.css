@@ -123,6 +123,7 @@ footer{
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding: 10%;
   }
 
   .profile_headshot{
