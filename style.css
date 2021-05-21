@@ -38,7 +38,6 @@ h1{
 .container{
   width: 80%;
   background-color: white;
-  /* opacity: 0.9; */
   margin: auto
 }
 
@@ -95,13 +94,11 @@ h1{
   text-align: center;
   width: 75%;
   margin-left: 12%;
-  
 }
 
 .projects h2 {
   margin-top: 2rem;
   text-align: center;
-
 }
 
 h3{
@@ -116,7 +113,6 @@ h3{
 footer{
   padding-left: 1em;
 }
-
 
 @media only screen and (max-width: 767px) {
   .profile {
