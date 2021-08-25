@@ -7,6 +7,7 @@ nav {
   display: flex;
   flex-flow: row;
   justify-content: center;
+  font-size: 18px;
 }
 
 nav a {
@@ -27,11 +28,9 @@ body{
   background-position-y: center;
 }
 
-header {
+header h1{
   padding: 2em;
-}
-
-h1{
+  font-size: 38px;
   text-align: center;
 }
 
@@ -50,19 +49,28 @@ h1{
 
 .about_me{
  text-align: center;
+ width: 80%;
+}
+
+.about_me h2{
+  font-size: 30px;
 }
 
 .about_me p {
   text-align: center;
   width: 80%;
   margin-left: 10%;
-  margin-top: 4rem;
-  font-size: large;
+  margin-top: 6rem;
+  font-size: 22px;
+}
+
+.picture_of_me{
+  text-align: center;
 }
 
 .profile_headshot{
   height: auto;
-  max-width: 225%;
+  max-width: 85%;
   box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.74);
   -webkit-box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.74);
   -moz-box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.74);
@@ -71,6 +79,7 @@ h1{
 .projects_title{
   text-align: center;
   margin-top: 2rem;
+  font-size: 30px;
 }
 
 .projects{
@@ -101,8 +110,14 @@ h1{
   text-align: center;
 }
 
-h3{
+.projects h3{
   text-align: center;
+}
+
+.projects ul{
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .contact_me{
@@ -114,8 +129,7 @@ footer{
   padding-left: 1em;
 }
 
-@media only screen and (max-width: 767px) {
-  .profile {
+@media only screen and (max-width: 767px) {.profile {
     align-items: center;
     display: flex;
     flex-direction: column;
